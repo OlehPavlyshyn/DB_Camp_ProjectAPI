@@ -1,0 +1,29 @@
+{
+  "namespace": "test.avro",
+  "type": "record",
+  "name": "User",
+  "fields": [
+    {
+      "name": "user_id",
+      "type": "int"
+    },
+
+    {
+      "name": "event_id",
+      "type": "int"
+    },
+
+    {
+      "name": "ante",
+      "type": "float"
+    },
+    {
+      "name": "choice",
+      "type": "string"
+    },
+     {
+      "name": "date",
+      "type": "int"
+    }
+  ]
+}
